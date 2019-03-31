@@ -5,6 +5,229 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MART</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    body{
+    margin: 0;
+    background: white;
+    font-family: Sans-serif;
+    overflow-x: hidden;
+}
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+}
+.home{
+    text-decoration: none;
+    font-style: normal;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(48, 52, 51, 0.7);
+    border-right: 1px solid rgba(48, 52, 51, 0.7);
+    margin-right: 30px;
+    height: 20px;
+}
+
+.services{
+    text-decoration: none;
+    font-style: normal;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(48, 52, 51, 0.7);
+    border-right: 1px solid rgba(48, 52, 51, 0.7);
+    margin-right: 30px;
+    height: 20px;
+}
+
+.products{
+    text-decoration: none;
+    font-style: normal;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(48, 52, 51, 0.7);
+    border-right: 1px solid rgba(48, 52, 51, 0.7);
+    margin-right: 30px;
+    height: 20px;
+}
+
+.pubrel{
+    text-decoration: none;
+    font-style: normal;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(48, 52, 51, 0.7);
+    border-right: 1px solid rgba(48, 52, 51, 0.7);
+    margin-right: 30px;
+    height: 20px;
+}
+.contact{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color:#D8A235;
+}
+.contact:hover{
+    color: rgba(48, 52, 51, 0.7);
+}
+a:hover{
+    color: #D8A235;
+}
+.logo{
+    padding-left: 7vw;
+    padding-top: 3vh;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 14% 18% 18% 26% 19%;
+    padding-left: 4vw;
+    padding-top: 8.5vh;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+span.note{
+    color: #D8A235;
+}
+
+span.note2{
+    color: #D8A235;
+}
+
+.text-container{
+    display: grid;
+    grid-template-rows: 9vh 12vh 6vh 3.1vh 14px;
+}
+
+.img-container{
+    margin-bottom: 0;
+    margin-top: 2.5vh;
+    height:27vh;
+    background-image: url(./aboutus/bckground.png);
+    background-color: rgb(49, 56, 53);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.main{
+    text-align: center;
+    color: rgb(94, 92, 92);
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.content1{
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: rgba(48, 52, 51, 0.57);
+    font-size: 15px;
+}
+.body{
+    padding: 80px;
+}
+.grid-image{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.second{
+    color: rgb(94, 92, 92);
+    font-weight: normal;
+}
+.content{
+    padding-top: 65px;
+}
+.content2{
+    letter-spacing: 0.02em;
+    color: rgba(48, 52, 51, 0.57);
+    font-size: 15px;
+}
+.viewmore{
+    text-decoration: none;
+    font-style: normal;
+    line-height: normal;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color:#D8A235;
+    font-weight: bold;
+}
+.viewmore:hover{
+    color: rgba(48, 52, 51, 0.7);
+}
+.grid-image2{
+    display: grid;
+    grid-template-columns: 50.5% 49.5%;
+}
+.content3{
+    padding-left: 180px;
+    padding-top: 65px;
+}
+.teammembers{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 30px;
+    padding-top: 15px;
+    padding-left: 40px;
+    margin-left: 80px;
+}
+.info{
+    padding-top:10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(43, 41, 41);
+    line-height: 20px;
+    text-align: center;
+}
+.pictures{
+    border: 0.5px solid rgb(231, 227, 227);
+    padding-top: 10px;
+}
+.designation{
+    color: rgb(66, 65, 65);
+    font-weight: normal;
+    font-size:12px;
+    text-align: center;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background: #CCCCCC;
+    box-shadow: inset 0px 15px 12px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    width: 100vw;
+    height: 80px;
+    padding: 50px;
+    margin-top: 40px;
+}
+    .text1{
+        color: rgba(25, 26, 25, 0.78);
+        font-weight: bold;
+    }
+    .text2{
+        color: rgba(88, 88, 88, 0.78);
+    }
+    .footer-icons{
+        padding: 80px;
+    }
+    .icons{
+        padding-left: 80px;
+    }
+    .teampic{
+        padding-left: 60px;
+    }
+    </style>
 </head>
 <body>
     <div class="header">
